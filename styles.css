@@ -146,7 +146,7 @@ p {
 .chemical_plant-img {
     float: left;
     margin-right: 30px;
-    width: 32%;
+    width: 35%;
 }
 
 
@@ -228,7 +228,7 @@ p {
 /* Education Section */
 
 #education .container-fluid,
-#ualifications .container-fluid {
+#qualifications .container-fluid {
     padding: 20px 20px 0px;
     max-width: 80%;
 }
@@ -250,6 +250,7 @@ p {
 .icon {
     margin-bottom: 1.5rem;
     padding-bottom: 5%;
+    font-size: 4rem;
 }
 
 
@@ -657,7 +658,7 @@ p {
     /* Education Section */
 
     #education .container-fluid,
-    #ualifications .container-fluid {
+    #qualifications .container-fluid {
         padding: 20px 20px 0px;
         max-width: 80%;
     }
@@ -679,6 +680,7 @@ p {
     .icon {
         margin-bottom: 1.5rem;
         padding-bottom: 5%;
+        font-size: 4rem;
     }
 
 
@@ -975,7 +977,7 @@ p {
     }
 
     .home-title {
-        padding: 120px 60px 180px;
+        padding: 120px 50px 170px;
     }
 
     .home-img {
@@ -1085,7 +1087,7 @@ p {
     /* Education Section */
 
     #education .container-fluid,
-    #ualifications .container-fluid {
+    #qualifications .container-fluid {
         padding: 20px 0;
         max-width: 100%;
     }
@@ -1093,6 +1095,7 @@ p {
     .education-box {
         margin: 10px auto;
         padding: 20px auto;
+        font-size: 0.9rem;
     }
 
     .education-title {
@@ -1107,6 +1110,7 @@ p {
     .icon {
         margin-bottom: 1.5rem;
         padding-bottom: 5%;
+        font-size: 4rem;
     }
 
 
@@ -1182,7 +1186,15 @@ p {
     #languages .container-fluid,
     #experience .container-fluid {
         padding: 10px 0px 0px;
+        font-size: 0.9rem;
     }
+        
+    #achievements h5,
+    #languages h5,
+    #experience h5 {
+        font-size: 0.9rem;
+    }
+
 
     /* Bullet */
 
@@ -1218,6 +1230,11 @@ p {
     #license .container-fluid,
     #goals .container-fluid {
         padding: 10px 0px 20px;
+    }
+    
+    #license h5,
+    #goals h5 {
+        font-size: 0.9rem;
     }
 
 
@@ -1407,11 +1424,11 @@ p {
     }
 
     .home-title {
-        padding: 90px 30px 140px;
+        padding: 90px 30px 90px;
     }
 
     .home-img {
-        width: 90%;
+        width: 80%;
         border-radius: 2rem;
     }
 
@@ -1518,7 +1535,7 @@ p {
     /* Education Section */
 
     #education .container-fluid,
-    #ualifications .container-fluid {
+    #qualifications .container-fluid {
         padding: 20px 0;
         max-width: 100%;
     }
@@ -1540,6 +1557,7 @@ p {
     .icon {
         margin-bottom: 1.5rem;
         padding-bottom: 5%;
+        font-size: 4rem;
     }
 
 
@@ -1615,8 +1633,16 @@ p {
     #languages .container-fluid,
     #experience .container-fluid {
         padding: 10px 0px 0px;
+        font-size: 0.9rem;
     }
 
+    #achievements h5,
+    #languages h5,
+    #experience h5 {
+        font-size: 1rem;
+    }
+    
+        
     /* Bullet */
 
     .bullet {
@@ -1651,6 +1677,11 @@ p {
     #license .container-fluid,
     #goals .container-fluid {
         padding: 10px 0px 20px;
+    }
+    
+    #license h5,
+    #goals h5 {
+        font-size: 1rem;
     }
 
 
@@ -1717,7 +1748,7 @@ p {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 582px) {
     /* start of phone styles */
 
     /* Main Elements */
@@ -1736,10 +1767,10 @@ p {
     }
 
     .top {
-        --offset: 25px;
+        --offset: 50px;
         position: sticky;
         bottom: 20px;
-        margin-right: 100px;
+        margin-right: 10px;
         place-self: end;
         margin-top: calc(100vh + var(--offset));
         /* visual styling */
@@ -1748,7 +1779,7 @@ p {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
         background: rgb(0, 0, 0);
-        border-radius: 100px;
+        border-radius: 120px;
         white-space: nowrap;
     }
 
@@ -1780,7 +1811,7 @@ p {
     }
 
     .container-fluid {
-        padding: 5px;
+        padding: 15px;
     }
 
 
@@ -1793,7 +1824,7 @@ p {
     }
 
     .navbar-nav {
-        padding: 5px 5px 0;
+        padding: 0px 5px 0;
     }
 
     .nav-item {
@@ -1803,7 +1834,7 @@ p {
 
     .nav-link {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
 
@@ -1822,7 +1853,7 @@ p {
         position: relative;
         width: 100%;
         left: 0;
-        bottom: 2px;
+        bottom: 5px;
         background: rgb(33, 33, 33);
         letter-spacing: 0.1em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1836,24 +1867,24 @@ p {
         content: "self-motivated  ||  progress-driven  ||  critical thinker";
         display: inline-block;
         padding: 0.5em;
-        font-size: 0.1em;
+        font-size: 0.7em;
     }
 
     .home-title {
-        padding: 20px 30px 80px;
+        padding: 30px 20px 50px;
     }
 
     .home-img {
-        width: 50%;
-        border-radius: 2rem;
+        width: 65%;
+        border-radius: 1.5rem;
     }
 
     .home-italic {
         font-style: italic;
     }
 
-    #title .container-fluid { 
-        padding: 10px 40px 10px;
+    #title .container-fluid {
+        padding: 0px 80px 30px;
     }
 
     /* About Section */
@@ -1864,16 +1895,21 @@ p {
         padding: 1%;
         text-align: left;
         line-height: 1.2;
+        font-size: 0.9rem;
     }
 
     .chemical_plant-img {
         float: left;
         margin-right: 10px;
-        width: 45%;
+        width: 41%;
     }
 
 
     /* Work Experience Section */
+
+    #work .container-fluid {
+        font-size: 0.8rem;
+    }
 
     #work p {
         color: rgb(255, 255, 255);
@@ -1951,8 +1987,8 @@ p {
     /* Education Section */
 
     #education .container-fluid,
-    #ualifications .container-fluid {
-        padding: 20px 0;
+    #qualifications .container-fluid {
+        padding: 20px 5px;
         max-width: 100%;
     }
 
@@ -1962,17 +1998,19 @@ p {
     }
 
     .education-title {
-        font-size: 1.25em;
+        font-size: 1rem;
         font-weight: bold;
     }
 
     #education p {
         line-height: 1.5;
+        font-size: 0.8rem;
     }
 
     .icon {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
         padding-bottom: 5%;
+        font-size: 2.5rem;
     }
 
 
@@ -2003,7 +2041,7 @@ p {
     .grid {
         margin: 0 auto;
         max-width: 100%;
-        padding: 10px;
+        padding: 5px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -2027,13 +2065,13 @@ p {
     }
 
     .skills-table_progress .progress {
-        margin: 10px 10px;
+        margin: 5px 5px;
         flex-grow: 5;
-        height: 15px;
+        height: 10px;
     }
 
     #skills h5 {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
 
@@ -2041,14 +2079,22 @@ p {
 
     #achievements p {
         color: rgb(255, 255, 255);
-        line-height: 1.5;
+        line-height: 1.2;
     }
 
     #achievements .container-fluid,
     #languages .container-fluid,
     #experience .container-fluid {
         padding: 10px 0px 0px;
+        font-size: 0.7rem;
     }
+
+    #achievements h5,
+    #languages h5,
+    #experience h5 {
+        font-size: 0.9rem;
+    }
+
 
     /* Bullet */
 
@@ -2069,7 +2115,7 @@ p {
 
     .bullet_point {
         position: absolute;
-        top: 5;
+        top: 1;
         left: 50%;
         transform: translateX(-50%);
         width: 15px;
@@ -2086,20 +2132,26 @@ p {
         padding: 10px 0px 20px;
     }
 
+    #license h5,
+    #goals h5 {
+        font-size: 0.9rem;
+    }
+
 
     /* Hobbies Section */
 
     .hobbies-img {
-        margin: 30px 20px;
+        margin: 30px 10px;
         width: 70%;
     }
 
     .hobbies-text {
-        line-height: 1.5;
+        line-height: 1;
+        font-size: 1rem;
     }
 
     #hobbies-carousel {
-        margin: 10px auto 50px;
+        margin: 0px auto 50px;
     }
 
 
@@ -2107,7 +2159,7 @@ p {
 
     .contact-message {
         margin: 20px auto 20px;
-        width: 80%;
+        width: 100%;
     }
 
     #contact .container-fluid {
@@ -2129,8 +2181,9 @@ p {
 
     #footer a {
         color: rgb(14, 49, 145);
-        margin: 0px 50px;
+        margin: 0px 20px;
         text-decoration: none;
+        font-size: 0.9rem;
     }
 
     #footer a:hover {
@@ -2148,3 +2201,459 @@ p {
     }
 
 }
+
+@media screen and (max-width: 480px) {
+    /* start of phone styles */
+
+    /* Main Elements */
+
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+
+    body {
+
+        display: grid;
+        grid-template-columns: auto 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .top {
+        --offset: 50px;
+        position: sticky;
+        bottom: 20px;
+        margin-right: 10px;
+        place-self: end;
+        margin-top: calc(100vh + var(--offset));
+        /* visual styling */
+        text-decoration: none;
+        padding: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+        border-radius: 120px;
+        white-space: nowrap;
+    }
+
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    p {
+        color: rgb(0, 0, 0, 0.6);
+    }
+
+
+    /* Sections */
+
+    .colored-section {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .white-section {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container-fluid {
+        padding: 15px;
+    }
+
+
+    /* Navigation Bar */
+
+    .navbar {
+        padding: 0 5px;
+        background-color: rgb(33, 33, 33);
+        color: rgb(255, 255, 255);
+    }
+
+    .navbar-nav {
+        padding: 0px 5px 0;
+    }
+
+    .nav-item {
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .nav-link {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0.7rem;
+    }
+
+
+    /* Title Section */
+
+    #home {
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #popup {
+        display: inline-block;
+        border: 0;
+        border-radius: 0.25em;
+        position: relative;
+        width: 100%;
+        left: 0;
+        bottom: 5px;
+        background: rgb(33, 33, 33);
+        letter-spacing: 0.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: uppercase;
+        z-index: 3;
+        color: rgb(255, 255, 255);
+        font-weight: 500
+    }
+
+    #popup:after {
+        content: "self-motivated  ||  progress-driven  ||  critical thinker";
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 0.7em;
+    }
+
+    .home-title {
+        padding: 5px 20px 10px;
+    }
+
+    .home-img {
+        width: 65%;
+        border-radius: 1.5rem;
+    }
+
+    .home-italic {
+        font-style: italic;
+    }
+
+    #title .container-fluid {
+        padding: 0px 20px 30px;
+    }
+
+    /* About Section */
+
+    .about-box {
+        margin: 10px auto;
+        width: 100%;
+        padding: 1%;
+        text-align: left;
+        line-height: 1.2;
+        font-size: 0.9rem;
+    }
+
+    .chemical_plant-img {
+        float: left;
+        margin-right: 10px;
+        width: 50%;
+    }
+
+
+    /* Work Experience Section */
+
+    #work .container-fluid {
+        font-size: 0.8rem;
+    }
+
+    #work p {
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+
+
+    /* Timeline */
+
+    .timeline {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 3px 1fr;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .timeline_component {
+        margin: 0 10px 10px 10px;
+    }
+
+    .timeline_date-right {
+        text-align: right;
+    }
+
+    .timeline_date-left {
+        text-align: left;
+    }
+
+    .timeline_middle {
+        position: relative;
+        background: rgb(255, 255, 255);
+    }
+
+    .timeline_point {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15px;
+        height: 15px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+
+    .timeline_component-bg {
+        padding: 1.1em;
+        background: rgb(33, 33, 33);
+        box-shadow: 0 0 5px rgb(10, 10, 10);
+        border-radius: 10px;
+    }
+
+    .timeline_title {
+        padding: 0 0 10px 0;
+        font-size: 1.25em;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .timeline_paragraph {
+        text-align: left;
+    }
+
+    .timeline_component-bottom {
+        margin-bottom: 0;
+    }
+
+    .timeline_point-bottom {
+        top: initial;
+        bottom: 0;
+    }
+
+    /* Education Section */
+
+    #education .container-fluid,
+    #qualifications .container-fluid {
+        padding: 10px 5px;
+        max-width: 100%;
+    }
+
+    .education-box {
+        margin: 10px auto;
+        padding: 10px auto;
+    }
+
+    .education-title {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #education p {
+        line-height: 1.1;
+        font-size: 0.8rem;
+    }
+
+    .icon {
+        margin-bottom: 1rem;
+        padding-bottom: 2.5%;
+        font-size: 2.5rem;
+    }
+
+
+    /* Pseudo Section */
+
+    #education a:link {
+        text-decoration: underline;
+        font-style: unset;
+    }
+
+    #education a:visited {
+        text-decoration: none;
+        color: rgb(21, 141, 221);
+    }
+
+    #education a:hover {
+        text-decoration: none;
+        color: rgb(14, 49, 145);
+    }
+
+    #education a:active {
+        text-decoration: underline;
+    }
+
+
+    /* Skills Section */
+
+    .grid {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 0.5rem;
+    }
+
+    .skills-table_progress {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .skills-table_progress .skills-table_skills {
+        flex: 3.5 0 20%;
+    }
+
+    .skills-table_progress .skills-table_skills {
+        text-align: right;
+    }
+
+    .skills-table_progress .progress {
+        margin: 5px 5px;
+        flex-grow: 5;
+        height: 10px;
+    }
+
+    #skills h5 {
+        font-size: 0.7rem;
+    }
+
+
+    /* Achievements Section */
+
+    #achievements p {
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+
+    #achievements .container-fluid,
+    #languages .container-fluid,
+    #experience .container-fluid {
+        padding: 10px 0px 0px;
+        font-size: 0.7rem;
+    }
+
+    #achievements h5,
+    #languages h5,
+    #experience h5 {
+        font-size: 0.9rem;
+    }
+
+
+    /* Bullet */
+
+    .bullet {
+        margin: 0 auto;
+        max-width: 90%;
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 3px 1fr;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+
+    .bullet_middle {
+        position: relative;
+    }
+
+    .bullet_point {
+        position: absolute;
+        top: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15px;
+        height: 15px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+
+
+    /* License Section */
+
+    #license .container-fluid,
+    #goals .container-fluid {
+        padding: 10px 0px 10px;
+    }
+
+    #license h5,
+    #goals h5 {
+        font-size: 0.9rem;
+    }
+
+
+    /* Hobbies Section */
+
+    .hobbies-img {
+        margin: 30px 10px;
+        width: 70%;
+    }
+
+    .hobbies-text {
+        line-height: 1;
+        font-size: 1rem;
+    }
+
+    #hobbies-carousel {
+        margin: 0px auto 20px;
+    }
+
+
+    /* Contact Me */
+
+    .contact-message {
+        margin: 20px auto 20px;
+        width: 100%;
+    }
+
+    #contact .container-fluid {
+        padding-bottom: 0px;
+    }
+
+    .contact-box {
+        margin: 20px auto;
+        line-height: 1;
+
+    }
+
+
+    /* Footer Section */
+
+    #footer .container-fluid {
+        padding-bottom: 0;
+    }
+
+    #footer a {
+        color: rgb(14, 49, 145);
+        text-decoration: none;
+        margin: 10px 30px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #footer a:hover {
+        color: rgb(21, 141, 221);
+    }
+
+    .copyright {
+        color: rgb(133, 133, 133);
+        font-size: 0.75rem;
+        padding: 10px 0;
+    }
+
+    .footer-icon {
+        margin: 10px 30px;
+    }
+
+}
+
